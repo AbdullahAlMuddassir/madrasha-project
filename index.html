@@ -260,175 +260,6 @@
   </head>
   <body>
     <!-- navbar section -->
-    <!-- <nav
-      class="navbar bg-emerald-900/95 backdrop-blur-md text-white sticky top-0 z-50 shadow-xl px-2 lg:px-20 h-20 border-b border-emerald-800/50"
-    >
-      <div class="flex items-center w-full lg:w-auto gap-1 sm:gap-3">
-        <div class="dropdown lg:hidden">
-          <div tabindex="0" role="button" class="btn btn-ghost p-1 mr-1">
-            <i class="fa-solid fa-bars text-xl text-amber-400"></i>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow-2xl bg-emerald-900 rounded-2xl w-64 border border-emerald-700 space-y-2 text-white"
-          >
-            <li>
-              <a
-                onclick="
-                  showSection('all');
-                  document.activeElement.blur();
-                "
-                >হোম</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="
-                  showSection('about');
-                  document.activeElement.blur();
-                "
-                >আমাদের সম্পর্কে</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="
-                  showSection('courses');
-                  document.activeElement.blur();
-                "
-                >কোর্সসমূহ</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="
-                  showSection('teachers');
-                  document.activeElement.blur();
-                "
-                >শিক্ষকগণ</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="
-                  showSection('gallery');
-                  document.activeElement.blur();
-                "
-                >গ্যালারি</a
-              >
-            </li>
-            <li>
-              <a
-                onclick="
-                  showSection('contact');
-                  document.activeElement.blur();
-                "
-                >যোগাযোগ</a
-              >
-            </li>
-            <hr class="border-emerald-700 my-2" />
-            <li>
-              <a
-                class="bg-orange-500 text-white font-bold active:bg-orange-600"
-                onclick="
-                  showSearchSection();
-                  document.activeElement.blur();
-                "
-              >
-                <i class="fa-solid fa-money-bill-transfer"></i> ফি জমা দিন
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div
-          class="flex items-center gap-2 cursor-pointer group flex-nowrap min-w-0"
-          onclick="showSection('all')"
-        >
-          <div class="relative flex-none w-10 h-10 lg:w-12 lg:h-12">
-            <img
-              src="img/logo.jpg"
-              class="w-full h-full rounded-full ring-2 ring-amber-400 p-0.5 object-cover transition-transform group-hover:scale-110"
-              alt="Logo"
-            />
-            <div
-              class="absolute inset-0 rounded-full bg-amber-400/20 animate-pulse"
-            ></div>
-          </div>
-          <div class="flex flex-col leading-none overflow-hidden">
-            <h1
-              class="madrasa-font text-[14px] sm:text-lg lg:text-xl text-white whitespace-nowrap"
-            >
-              মারকাযুল আনোয়ার
-            </h1>
-            <p
-              class="text-[7px] sm:text-[9px] lg:text-[10px] text-amber-400 tracking-[0.1em] uppercase font-semibold mt-0.5 whitespace-nowrap"
-            >
-              ইসলামিক ইনস্টিটিউট
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="navbar-center hidden lg:flex flex-grow justify-center">
-        <ul class="flex items-center gap-8 font-medium">
-          <li
-            onclick="showSection('all')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            হোম
-          </li>
-          <li
-            onclick="showSection('about')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            আমাদের সম্পর্কে
-          </li>
-          <li
-            onclick="showSection('courses')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            কোর্সসমূহ
-          </li>
-          <li
-            onclick="showSection('teachers')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            শিক্ষকগণ
-          </li>
-          <li
-            onclick="showSection('gallery')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            গ্যালারি
-          </li>
-          <li
-            onclick="showSection('contact')"
-            class="nav-item py-2 cursor-pointer hover:text-amber-400"
-          >
-            যোগাযোগ
-          </li>
-        </ul>
-      </div>
-
-      <div class="ml-auto flex items-center gap-2 lg:gap-4">
-        <button
-          onclick="showPortal()"
-          class="hidden sm:flex btn bg-orange-500 hover:bg-orange-600 border-none text-white btn-xs sm:btn-sm lg:btn-md rounded-full font-bold shadow-lg transition-all duration-300 whitespace-nowrap"
-        >
-          <i class="fa-solid fa-money-bill-transfer mr-1 lg:mr-2"></i> ফি জমা
-          দিন
-        </button>
-
-        <button
-          onclick="showSection('contact')"
-          class="btn btn-warning btn-xs sm:btn-sm lg:btn-md rounded-full font-bold shadow-lg border-none text-emerald-950 px-3 sm:px-6 hover:bg-amber-500 transition-all duration-300 whitespace-nowrap"
-        >
-          ভর্তি ফরম
-        </button>
-      </div>
-    </nav> -->
-    <!-- নতুন -->
     <nav
       class="navbar bg-emerald-900/95 backdrop-blur-md text-white sticky top-0 z-50 shadow-xl px-2 lg:px-20 h-20 border-b border-emerald-800/50"
     >
@@ -635,13 +466,25 @@
           </div>
         </div>
 
-        <div class="shrink-0">
+        <div class="shrink-0 ml-2 md:ml-4">
           <a
-            href="#notice-section"
-            id="view-all-notices"
-            class="bg-emerald-700 hover:bg-emerald-600 text-[10px] md:text-xs px-2 md:px-3 py-1 rounded-md transition-all duration-300 border border-emerald-500/30 whitespace-nowrap shadow-sm flex items-center"
+            href="#"
+            onclick="
+              event.preventDefault();
+              showSection('notice-section');
+              loadNotices();
+            "
+            class="group relative inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 hover:bg-white text-white hover:text-emerald-900 border border-white/20 hover:border-white rounded-md transition-all duration-300 backdrop-blur-sm no-underline decoration-transparent"
           >
-            সব নোটিশ <i class="fas fa-arrow-right ml-1"></i>
+            <span
+              class="text-[10px] md:text-[11px] font-bold uppercase tracking-widest no-underline"
+            >
+              সব নোটিশ
+            </span>
+
+            <i
+              class="fa-solid fa-chevron-right text-[9px] transition-transform duration-300 group-hover:translate-x-1"
+            ></i>
           </a>
         </div>
       </div>
@@ -680,7 +523,6 @@
           </div>
         </div>
       </header>
-      <!-- NOtice -->
       <!-- About Section -->
       <section
         id="about"
@@ -1278,78 +1120,6 @@
         </div>
       </section>
       <!-- Contact Section -->
-      <!-- <section
-        id="contact"
-        class="page-section py-16 lg:py-24 px-6 bg-emerald-50"
-      >
-        <div class="max-w-4xl mx-auto text-center">
-          <div class="bg-emerald-900 p-8 lg:p-12 rounded-[2.5rem] shadow-2xl">
-            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">
-              যোগাযোগ ও ভর্তি তথ্য
-            </h2>
-            <div class="w-16 h-1 bg-amber-400 mx-auto mb-12 rounded-full"></div>
-            <div class="flex justify-center gap-10 lg:gap-16 mb-12">
-              <a href="tel:+8801518923490" class="circle-btn">
-                <div class="circle-icon bg-orange-500 shadow-orange-200">
-                  <i class="fa-solid fa-phone"></i>
-                </div>
-                <span class="font-bold text-emerald-900 text-sm">Call Now</span>
-              </a>
-              <a
-                href="https://wa.me/8801518923490"
-                target="_blank"
-                class="circle-btn"
-              >
-                <div class="circle-icon bg-green-500 shadow-green-200">
-                  <i class="fa-brands fa-whatsapp"></i>
-                </div>
-                <span class="font-bold text-emerald-900 text-sm">WhatsApp</span>
-              </a>
-            </div>
-            <div class="bg-white p-6 lg:p-12 rounded-3xl shadow-2xl text-left">
-              <h3 class="text-2xl font-bold text-emerald-900 mb-8 text-center">
-                ভর্তি আবেদন ফরম
-              </h3>
-              <form id="contact-form" class="space-y-5">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                  <input
-                    type="text"
-                    name="user_name"
-                    placeholder="শিক্ষার্থীর নাম"
-                    class="input input-bordered h-14 rounded-xl focus:border-emerald-500"
-                    required
-                  />
-
-                  <input
-                    type="tel"
-                    name="user_phone"
-                    placeholder="ফোন নম্বর (১১ ডিজিট)"
-                    pattern="[0-9]{11}"
-                    class="input input-bordered h-14 rounded-xl focus:border-emerald-500"
-                    required
-                  />
-                </div>
-
-                <textarea
-                  name="message"
-                  class="textarea textarea-bordered h-32 w-full rounded-xl focus:border-emerald-500 text-base"
-                  placeholder="আপনার বার্তা..."
-                  required
-                ></textarea>
-
-                <button
-                  type="submit"
-                  id="submitBtn"
-                  class="btn btn-success bg-emerald-700 border-none text-white w-full h-14 text-lg rounded-xl shadow-xl transition-all"
-                >
-                  আবেদন জমা দিন 🚀
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- নতুন -->
       <section
         id="contact"
         class="page-section py-16 lg:py-24 px-6 bg-emerald-50"
@@ -1393,7 +1163,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <input
                     type="text"
-                    name="user_name"
+                    name="name"
                     placeholder="শিক্ষার্থীর নাম"
                     class="input input-bordered h-14 rounded-xl focus:border-emerald-500"
                     required
@@ -1401,13 +1171,20 @@
 
                   <input
                     type="tel"
-                    name="user_phone"
+                    name="phone"
                     placeholder="ফোন নম্বর (১১ ডিজিট)"
                     pattern="[0-9]{11}"
                     class="input input-bordered h-14 rounded-xl focus:border-emerald-500"
                     required
                   />
                 </div>
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="ইমেইল ঠিকানা (ঐচ্ছিক)"
+                  class="input input-bordered h-14 w-full rounded-xl focus:border-emerald-500 mb-5"
+                />
 
                 <textarea
                   name="message"
@@ -1526,207 +1303,9 @@
         </div>
       </section>
       <!-- payment method -->
-      <!-- <section
-        id="payment"
-        class="page-section py-20 bg-emerald-50 px-6 hidden-section"
-      >
-        <div class="max-w-5xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-emerald-900 mb-4">
-              ডিজিটাল ফি পেমেন্ট
-            </h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">
-              নিরাপদ এবং দ্রুত পেমেন্ট নিশ্চিত করতে নিচের যেকোনো একটি মাধ্যম
-              বেছে নিন। পেমেন্ট শেষে ট্রানজেকশন আইডিটি সংগ্রহ করুন।
-            </p>
-          </div>
-
-          <div
-            class="bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-emerald-100 grid grid-cols-1 lg:grid-cols-12"
-          >
-            <div class="lg:col-span-4 bg-emerald-900 p-8 lg:p-12 text-white">
-              <h3 class="text-xl font-bold mb-8">মাধ্যম বেছে নিন:</h3>
-              <div class="space-y-4">
-                <button
-                  onclick="changePayMethod('bkash')"
-                  id="btn-bkash"
-                  class="pay-tab-btn active-pay w-full flex items-center gap-4 p-4 rounded-2xl transition-all"
-                >
-                  <span
-                    class="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-pink-600 font-bold"
-                    >b</span
-                  >
-                  বিকাশ (bKash)
-                </button>
-                <button
-                  onclick="changePayMethod('nagad')"
-                  id="btn-nagad"
-                  class="pay-tab-btn w-full flex items-center gap-4 p-4 rounded-2xl transition-all opacity-60"
-                >
-                  <span
-                    class="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-orange-600 font-bold"
-                    >n</span
-                  >
-                  নগদ (Nagad)
-                </button>
-                <button
-                  onclick="changePayMethod('bank')"
-                  id="btn-bank"
-                  class="pay-tab-btn w-full flex items-center gap-4 p-4 rounded-2xl transition-all opacity-60"
-                >
-                  <span
-                    class="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-emerald-600"
-                    ><i class="fa-solid fa-building-columns"></i
-                  ></span>
-                  ব্যাংক ট্রান্সফার
-                </button>
-              </div>
-            </div>
-
-            <div class="lg:col-span-8 p-8 lg:p-12">
-              <div id="pay-bkash" class="pay-content">
-                <div class="flex flex-col md:flex-row gap-8 items-center">
-                  <div class="flex-grow space-y-4 text-center md:text-left">
-                    <h4 class="text-2xl font-bold text-emerald-900">
-                      বিকাশ পার্সোনাল
-                    </h4>
-                    <div
-                      class="bg-gray-100 p-4 rounded-2xl flex items-center justify-between gap-4 max-w-xs mx-auto md:mx-0"
-                    >
-                      <span class="text-xl font-mono font-bold tracking-wider"
-                        >01518923490</span
-                      >
-                      <button
-                        onclick="copyText('01518923490')"
-                        class="btn btn-ghost btn-sm text-emerald-600"
-                      >
-                        Copy
-                      </button>
-                    </div>
-                    <ul class="text-sm text-gray-500 space-y-2">
-                      <li>• বিকাশ অ্যাপ থেকে 'Send Money' করুন।</li>
-                      <li>• রেফারেন্সে ছাত্রের নাম বা আইডি দিন।</li>
-                    </ul>
-                  </div>
-                  <div
-                    class="w-40 h-40 bg-gray-100 rounded-3xl flex items-center justify-center border-2 border-dashed border-gray-300"
-                  >
-                    <span class="text-gray-400 text-xs text-center p-4 italic"
-                      >QR Code<br />আসছে...</span
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div id="pay-nagad" class="pay-content hidden">
-                <div class="flex flex-col md:flex-row gap-8 items-center">
-                  <div class="flex-grow space-y-4 text-center md:text-left">
-                    <h4 class="text-2xl font-bold text-orange-600">
-                      নগদ পার্সোনাল
-                    </h4>
-                    <div
-                      class="bg-gray-100 p-4 rounded-2xl flex items-center justify-between gap-4 max-w-xs mx-auto md:mx-0"
-                    >
-                      <span class="text-xl font-mono font-bold tracking-wider"
-                        >01518923490</span
-                      >
-                      <button
-                        onclick="copyText('01518923490')"
-                        class="btn btn-ghost btn-sm text-orange-600"
-                      >
-                        Copy
-                      </button>
-                    </div>
-                    <ul class="text-sm text-gray-500 space-y-2">
-                      <li>• নগদ অ্যাপ বা *167# থেকে 'Send Money' করুন।</li>
-                      <li>• পেমেন্ট শেষে ট্রানজেকশন আইডিটি সংরক্ষণ করুন।</li>
-                    </ul>
-                  </div>
-                  <div
-                    class="w-40 h-40 bg-gray-100 rounded-3xl flex items-center justify-center border-2 border-dashed border-gray-300"
-                  >
-                    <span class="text-gray-400 text-xs text-center p-4 italic"
-                      >QR Code<br />আসছে...</span
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div id="pay-bank" class="pay-content hidden">
-                <div class="space-y-6">
-                  <h4 class="text-2xl font-bold text-emerald-900 border-b pb-2">
-                    ব্যাংক একাউন্ট ডিটেইলস
-                  </h4>
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                    <div class="p-4 bg-gray-50 rounded-xl">
-                      <p class="text-gray-500">ব্যাংকের নাম</p>
-                      <p class="font-bold text-emerald-800">
-                        ইসলামী ব্যাংক বাংলাদেশ লিঃ
-                      </p>
-                    </div>
-                    <div class="p-4 bg-gray-50 rounded-xl">
-                      <p class="text-gray-500">হিসাব নম্বর</p>
-                      <p class="font-bold text-emerald-800 tracking-widest">
-                        ২০৫০XXXXXXXXXXXXX
-                      </p>
-                    </div>
-                    <div class="p-4 bg-gray-50 rounded-xl md:col-span-2">
-                      <p class="text-gray-500">হিসাবের নাম (Account Name)</p>
-                      <p class="font-bold text-emerald-800 uppercase">
-                        Markajul Anwar Islamic Institute
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="mt-12 pt-8 border-t border-gray-100 flex flex-wrap gap-4 justify-center md:justify-start"
-              >
-                <a
-                  href="https://wa.me/8801518923490"
-                  target="_blank"
-                  class="btn bg-emerald-700 hover:bg-emerald-800 text-white rounded-full px-8 border-none shadow-lg transition-all"
-                >
-                  <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> পেমেন্ট
-                  নিশ্চিত করুন
-                </a>
-                <button
-                  onclick="showSection('all')"
-                  class="group flex items-center gap-2 px-8 py-3 rounded-full border-2 border-emerald-600 text-emerald-700 font-semibold transition-all duration-300 hover:bg-emerald-600 hover:text-white hover:shadow-lg active:scale-95"
-                >
-                  <i
-                    class="fa-solid fa-arrow-left transition-transform group-hover:-translate-x-1"
-                  ></i>
-                  পরে করবো
-                </button>
-                <div
-                  id="whatsapp-confirm"
-                  class="hidden mt-6 p-4 bg-green-50 border border-green-200 rounded-lg text-center"
-                >
-                  <p class="text-sm text-green-800 mb-3 font-medium">
-                    ✅ তথ্য জমা হয়েছে! এবার হোয়াটসঅ্যাপে একটি মেসেজ পাঠিয়ে দিন:
-                  </p>
-
-                  <a
-                    id="whatsapp-btn"
-                    href="#"
-                    target="_blank"
-                    class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-2 px-6 rounded-full transition-all duration-300 shadow-md"
-                  >
-                    <i class="fab fa-whatsapp text-xl"></i>
-                    WhatsApp-এ নিশ্চিত করুন
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- নতুন -->
       <section
         id="payment"
-        class="page-section py-20 bg-emerald-50 px-6 hidden-section"
+        class="page-section py-20 bg-emerald-50 px-6 hidden"
       >
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
@@ -2016,12 +1595,11 @@
           </h4>
           <p class="text-sm mb-2">
             <i class="fa-solid fa-location-dot mr-2 text-amber-400"></i>
-            সৈয়দ শাহ রোড,ওয়েবদা অফিস,ল্যান্ডমার্ক হাউজিং সোসাইটি,হাজি আলিম
+            সৈয়দ শাহ রোড,ওয়াবদা অফিস,ল্যান্ডমার্ক হাউজিং সোসাইটি,হাজি আলিম
             ম্যানশন,চকবাজার, চট্টগ্রাম, বাংলাদেশ।
           </p>
           <p class="text-sm mb-2">
-            <i class="fa-solid fa-phone mr-2 text-amber-400"></i> +৮৮০
-            ১৫১৮-৯২৩৪৯০
+            <i class="fa-solid fa-phone mr-2 text-amber-400"></i>+8801886683619
           </p>
           <p class="text-sm">
             <i class="fa-solid fa-envelope mr-2 text-amber-400"></i>
@@ -2041,158 +1619,146 @@
       </div>
     </footer>
     <!-- JavaScript-dev -->
-    <!-- <script>
-      (function () {
-        emailjs.init("Wta8HujxhxUyRHjmW");
-      })();
-      function showSection(sectionId) {
-        const sections = [
-          "home-hero",
-          "about",
-          "courses",
-          "noorani",
-          "afterShool",
-          "cousing",
-          "teachers",
-          "gallery",
-          "contact",
-          "payment",
-          "map-section",
-        ];
-        // বিস্তারিত বা ডেসক্রিপশন সেকশনগুলোর আইডি আলাদা করে চিনে রাখা
-        const detailSections = [
-          "noorani",
-          "afterShool",
-          "cousing",
-          "payment",
-          "about",
-        ];
-        sections.forEach((id) => {
-          const el = document.getElementById(id);
-          if (!el) return;
-
-          if (sectionId === "all") {
-            /**
-             * হোম পেজে যা যা হবে:
-             * ১. 'about' হাইড থাকবে (আপনার আগের কোড অনুযায়ী)
-             * ২. বিস্তারিত সেকশনগুলো (noorani, afterShool, cousing) হাইড থাকবে
-             * ৩. বাকি সব (Hero, Course Cards, Teachers, etc.) দেখাবে
-             */
-            if (id === "about" || detailSections.includes(id)) {
-              el.classList.add("hidden-section");
-            } else {
-              el.classList.remove("hidden-section");
-            }
-          } else {
-            /**
-             * নির্দিষ্ট সেকশনে (যেমন: নূরানী) ক্লিক করলে:
-             * শুধু সেই আইডিটি দেখাবে, বাকি সব হাইড হয়ে যাবে
-             */
-            if (id === sectionId) {
-              el.classList.remove("hidden-section");
-            } else {
-              el.classList.add("hidden-section");
-            }
-          }
-        });
-
-        // মোবাইল মেনু বন্ধ করা
-        if (document.activeElement) document.activeElement.blur();
-
-        // উপরে স্ক্রল করা
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-
-      // ডিফল্টভাবে হোম পেজ লোড হবে
-      showSection("all");
-      // payment
-      function changePayMethod(method) {
-        // সব কন্টেন্ট হাইড করা
-        document
-          .querySelectorAll(".pay-content")
-          .forEach((el) => (el.style.display = "none"));
-        document
-          .querySelectorAll(".pay-tab-btn")
-          .forEach((el) => el.classList.add("opacity-60", "active-pay"));
-        document
-          .querySelectorAll(".pay-tab-btn")
-          .forEach((el) => el.classList.remove("active-pay"));
-
-        // সিলেক্ট করা কন্টেন্ট দেখানো
-        document.getElementById("pay-" + method).style.display = "block";
-        document.getElementById("btn-" + method).classList.remove("opacity-60");
-        document.getElementById("btn-" + method).classList.add("active-pay");
-      }
-
-      function copyText(text) {
-        navigator.clipboard.writeText(text);
-        alert("নম্বরটি কপি করা হয়েছে: " + text);
-      }
-
-      // Form Handling
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (event) {
-          event.preventDefault();
-          const btn = document.getElementById("submitBtn");
-          btn.innerText = "পাঠানো হচ্ছে...";
-          btn.disabled = true;
-          emailjs.sendForm("service_0elue5m", "template_841d0vq", this).then(
-            () => {
-              alert("আলহামদুলিল্লাহ! আবেদন সফল হয়েছে।");
-              btn.innerText = "আবেদন জমা দিন 🚀";
-              btn.disabled = false;
-              this.reset();
-            },
-            () => {
-              alert("দুঃখিত, আবার চেষ্টা করুন।");
-              btn.innerText = "আবেদন জমা দিন 🚀";
-              btn.disabled = false;
-            },
-          );
-        });
-    </script> -->
-    <!-- নতুন -->
     <script>
-      // ১. EmailJS ইনিশিয়ালাইজেশন
+      // ১. কনফিগারেশন এবং EmailJS ইনিশিয়ালাইজেশন
+      const SCRIPT_URL =
+        "https://script.google.com/macros/s/AKfycbxCCCuUPrsvVc1Y8hO3K-acRocDsdpcHkreUpg1olZ4kS8VlotxBWsb6FCFVSY1qKGq/exec";
+
       (function () {
         if (typeof emailjs !== "undefined") {
           emailjs.init("Wta8HujxhxUyRHjmW"); // আপনার Public Key
-        } else {
-          console.error(
-            "EmailJS SDK found missing. Please include the script tag.",
-          );
         }
       })();
 
-      // --- কন্টাক্ট ফর্ম পাঠানোর ফাংশন (Service & Template ID সহ) ---
-      async function sendEmail(event) {
-        event.preventDefault(); // পেজ রিলোড হওয়া বন্ধ করবে
+      // ২. নোটিশ ডাটা লোড করার ফাংশন
+      async function fetchNotices() {
+        const noticeContainer = document.getElementById("full-notice-list");
+        const scrollingNotice = document.getElementById("scrolling-notice");
 
+        try {
+          const response = await fetch(`${SCRIPT_URL}?action=getNotices`);
+          const notices = await response.json();
+
+          if (scrollingNotice && notices.length > 0) {
+            let marqueeHTML = notices
+              .slice(-5)
+              .reverse()
+              .map(
+                (n) =>
+                  `<span class="mx-4"><i class="fas fa-bullhorn text-amber-400 mr-2"></i>${n.title || n.notice}</span>`,
+              )
+              .join("");
+            scrollingNotice.innerHTML = marqueeHTML + marqueeHTML;
+          }
+
+          if (noticeContainer) {
+            if (notices.length === 0) {
+              noticeContainer.innerHTML = `<p class="text-center text-gray-500 py-10">বর্তমানে কোনো নোটিশ নেই।</p>`;
+              return;
+            }
+            noticeContainer.innerHTML = notices
+              .reverse()
+              .map(
+                (n) => `
+              <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all border-l-4 border-l-emerald-600 mb-4 text-left">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full">
+                    📅 ${n.date || "সাম্প্রতিক"}
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold text-emerald-900 mb-2">${n.title || n.notice}</h3>
+                ${n.desc ? `<p class="text-gray-600 leading-relaxed">${n.desc}</p>` : ""}
+              </div>
+            `,
+              )
+              .join("");
+          }
+        } catch (error) {
+          console.error("Notice Fetch Error:", error);
+        }
+      }
+
+      // ৩. স্টুডেন্ট সার্চ ফাংশন (studentlist শিট থেকে ডাটা আনবে)
+      async function searchStudent() {
+        const searchInput = document.getElementById("studentSearchId");
+        const searchId = searchInput ? searchInput.value.trim() : "";
+        const card = document.getElementById("studentCard");
+
+        if (!searchId) return alert("দয়া করে আপনার আইডি দিন।");
+
+        try {
+          // লোডিং মেসেজ (ঐচ্ছিক)
+          const response = await fetch(
+            `${SCRIPT_URL}?action=getStudent&id=${searchId}`,
+          );
+          const data = await response.json();
+
+          if (data.error) {
+            alert("দুঃখিত! এই আইডির কোনো তথ্য পাওয়া যায়নি।");
+            card.classList.add("hidden");
+            card.style.display = "none";
+          } else {
+            // আপনার কলাম অনুযায়ী ডাটা ম্যাপিং
+            document.getElementById("resName").innerText = data.name || "N/A";
+            document.getElementById("resClass").innerText =
+              `শ্রেণি: ${data.class || "N/A"} | রোল: ${data.roll || "N/A"}`;
+            document.getElementById("resTuition").innerText =
+              `৳ ${data.tuition || "0.00"}`;
+            document.getElementById("resOthers").innerText =
+              `৳ ${data.others || "0.00"}`;
+
+            // রেজাল্ট সেকশন আপডেট
+            const resGrade = document.getElementById("resGrade");
+            if (resGrade)
+              resGrade.innerText =
+                "সর্বশেষ ফলাফল: " + (data.result || "অপ্রকাশিত");
+
+            card.classList.remove("hidden");
+            card.style.display = "block";
+            card.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+        } catch (error) {
+          console.error("Search Error:", error);
+          alert("সার্ভারের সাথে সংযোগ করা যাচ্ছে না।");
+        }
+      }
+
+      // ৪. কন্টাক্ট ফর্ম পাঠানো (contactData শিটে জমা হবে + EmailJS)
+      async function sendEmail(event) {
+        event.preventDefault();
         const form = event.target;
-        const submitBtn = form.querySelector('button[type="submit"]');
+        const submitBtn = document.getElementById("submitBtn");
         const originalText = submitBtn.innerHTML;
 
-        // বাটন লোডিং স্টেট
-        submitBtn.innerText = "পাঠানো হচ্ছে...";
+        submitBtn.innerText = "প্রসেসিং...";
         submitBtn.disabled = true;
 
         try {
-          // আপনার Service ID: service_0elue5m এবং Template ID: template_841d0vq
-          await emailjs.sendForm("service_0elue5m", "template_841d0vq", form);
+          const formData = new FormData(form);
 
-          alert("ধন্যবাদ! আপনার আবেদনটি সফলভাবে পাঠানো হয়েছে।");
-          form.reset(); // ফর্ম খালি করা
+          // গুগল শিটে ডাটা পাঠানো (সঠিক পদ্ধতি)
+          await fetch(SCRIPT_URL, {
+            method: "POST",
+            body: new URLSearchParams(formData),
+          });
+
+          // EmailJS দিয়ে ইমেইল পাঠানো
+          if (typeof emailjs !== "undefined") {
+            await emailjs.sendForm("service_0elue5m", "template_841d0vq", form);
+          }
+
+          alert("ধন্যবাদ! আপনার আবেদনটি সফলভাবে জমা হয়েছে।");
+          form.reset();
         } catch (error) {
-          console.error("EmailJS Error:", error);
-          alert("দুঃখিত! মেসেজটি পাঠানো যায়নি। আবার চেষ্টা করুন।");
+          console.error("Error:", error);
+          alert("দুঃখিত! তথ্য পাঠানো যায়নি।");
         } finally {
           submitBtn.innerHTML = originalText;
           submitBtn.disabled = false;
         }
       }
 
-      // ২. সেকশন কন্ট্রোল (স্মুথ নেভিগেশন ও ডাটা ক্লিনিং)
+      // ৫. সেকশন কন্ট্রোল
       function showSection(sectionId) {
         const sections = [
           "home-hero",
@@ -2210,24 +1776,14 @@
           "notice-section",
         ];
 
-        // পোর্টাল ডাটা রিসেট (যখন অন্য সেকশনে যাওয়া হয়)
-        const card = document.getElementById("studentCard");
-        const searchInput = document.getElementById("studentSearchId");
-
-        if (card) {
-          card.classList.add("hidden");
-          card.style.display = "none";
-        }
-        if (searchInput) {
-          searchInput.value = "";
-        }
-
         sections.forEach((id) => {
           const el = document.getElementById(id);
           if (!el) return;
 
+          el.classList.add("hidden");
+          el.style.display = "none";
+
           if (sectionId === "all") {
-            // হোম পেজে যা যা হাইড থাকবে
             const hideOnHome = [
               "noorani",
               "afterShool",
@@ -2237,157 +1793,127 @@
               "portal",
               "notice-section",
             ];
-            if (hideOnHome.includes(id)) {
-              el.style.setProperty("display", "none", "important");
-              el.classList.add("hidden");
-            } else {
-              el.style.setProperty("display", "block", "important");
+            if (!hideOnHome.includes(id)) {
               el.classList.remove("hidden");
+              el.style.display = "block";
             }
-          } else {
-            // নির্দিষ্ট সেকশন দেখানো
-            if (id === sectionId) {
-              el.style.setProperty("display", "block", "important");
-              el.classList.remove("hidden");
-            } else {
-              el.style.setProperty("display", "none", "important");
-              el.classList.add("hidden");
-            }
+          } else if (id === sectionId) {
+            el.classList.remove("hidden", "hidden-section");
+            el.style.setProperty("display", "block", "important");
           }
         });
 
-        // মোবাইল মেনু ও ড্রপডাউন বন্ধ করা
-        if (document.activeElement) document.activeElement.blur();
-        const mobileMenu = document.getElementById("mobile-menu");
-        if (mobileMenu) mobileMenu.classList.add("hidden");
-
+        if (sectionId === "notice-section") fetchNotices();
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
 
-      // ৩. স্টুডেন্ট সার্চ ফাংশন (Google Sheet API)
-      async function searchStudent() {
-        const searchInput = document.getElementById("studentSearchId");
-        const searchId = searchInput ? searchInput.value.trim() : "";
-        const card = document.getElementById("studentCard");
-
-        const sheetId = "1FxFQfK2tMEwVtMsF26S6R5-hf20zp2ss8uFnXLKkmFE";
-        const sheetURL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
-
-        if (!searchId) return alert("দয়া করে একটি আইডি দিন।");
-
-        try {
-          const response = await fetch(sheetURL);
-          if (!response.ok) throw new Error("Network response was not ok");
-
-          const csvData = await response.text();
-          const rows = csvData
-            .split(/\r?\n/)
-            .map((row) =>
-              row
-                .split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/)
-                .map((cell) => cell.replace(/^"|"$/g, "").trim()),
-            );
-
-          let student = null;
-          for (let i = 1; i < rows.length; i++) {
-            if (rows[i][0] == searchId) {
-              student = {
-                name: rows[i][1],
-                className: rows[i][2],
-                roll: rows[i][3],
-                tuition: rows[i][4],
-                others: rows[i][5],
-              };
-              break;
-            }
-          }
-
-          if (student) {
-            document.getElementById("resName").innerText =
-              student.name || "N/A";
-            document.getElementById("resClass").innerText =
-              `শ্রেণি: ${student.className} | রোল: ${student.roll}`;
-            document.getElementById("resTuition").innerText =
-              `৳ ${student.tuition || "0"}`;
-            document.getElementById("resOthers").innerText =
-              `৳ ${student.others || "0"}`;
-
-            card.classList.remove("hidden");
-            card.style.display = "block";
-          } else {
-            alert("দুঃখিত! এই আইডির কোনো তথ্য পাওয়া যায়নি।");
-            card.style.display = "none";
-          }
-        } catch (error) {
-          console.error("Error fetching data:", error);
-          alert("ডাটাবেস কানেকশন এরর।");
-        }
-      }
-
-      // ৪. হোয়াটসঅ্যাপে পেমেন্ট তথ্য পাঠানো
-      function sendToWhatsApp() {
-        const myNumber = "8801518923490";
-        const name = document.getElementById("resName").innerText;
-        const classInfo = document.getElementById("resClass").innerText;
-        const tuition = document.getElementById("resTuition").innerText;
-        const others = document.getElementById("resOthers").innerText;
-
-        if (name === "স্টুডেন্টের নাম" || name === "" || name === "N/A") {
-          alert("দয়া করে আগে ছাত্রের আইডি দিয়ে সার্চ করে তথ্য নিশ্চিত করুন।");
-          showSection("portal");
-          return;
-        }
-
-        const message = `আসসালামু আলাইকুম,\nমারকাযুল আনোয়ার মাদরাসার ফি সংক্রান্ত তথ্য:\n\n✅ *ছাত্রের নাম:* ${name}\n📝 *শ্রেণি ও রোল:* ${classInfo}\n💰 *মাসিক বেতন:* ${tuition}\n📂 *অন্যান্য ফি:* ${others}\n\nআমি পেমেন্ট সম্পন্ন করেছি। দয়া করে নিশ্চিত করবেন।`;
-
-        window.open(
-          `https://wa.me/${myNumber}?text=${encodeURIComponent(message)}`,
-          "_blank",
-        );
-      }
-
-      // ৫. পেমেন্ট ও পোর্টাল নেভিগেশন শর্টকাট
-      function goToPayment() {
-        showSection("payment");
-      }
+      // ৬. বিশেষ নেভিগেশন বাটন ফাংশন
       function showPortal() {
         showSection("portal");
       }
+      function goToPayment() {
+        showSection("payment");
+        changePayMethod("bkash");
+      }
 
-      // ৬. পেমেন্ট মেথড সুইচিং (bkash/nagad/bank)
+      // ৭. ইউটিলিটি ফাংশন
+      function sendToWhatsApp() {
+        // ১. তথ্য সংগ্রহ
+        const name = document.getElementById("resName").innerText;
+        const classRoll = document.getElementById("resClass").innerText;
+        const tuition = document.getElementById("resTuition").innerText;
+        const studentCard = document.getElementById("studentCard");
+
+        // ২. আইডি সার্চ করা হয়েছে কি না চেক
+        if (name === "N/A" || name === "" || name === "শিক্ষার্থীর নাম") {
+          return alert("আগে আইডি দিয়ে সার্চ করুন।");
+        }
+
+        // ৩. হোয়াটসঅ্যাপ মেসেজ ফরম্যাট
+        const message = `আসসালামু আলাইকুম,
+           নাম: ${name}
+               ${classRoll}
+                   বকেয়া তথ্য: ${tuition}
+                  আমি পেমেন্ট করেছি। অনুগ্রহ করে যাচাই করবেন।`;
+
+        // ৪. হোয়াটসঅ্যাপ ওপেন করা
+        window.open(
+          `https://wa.me/8801518923490?text=${encodeURIComponent(message)}`,
+          "_blank",
+        );
+
+        // ৫. স্টুডেন্ট কার্ডের ভেতরে কনফার্মেশন মেসেজ দেখানো
+        // কার্ডের আসল কন্টেন্ট আমরা একটি ভেরিয়েবলে সেভ করে রাখতে পারি যাতে পরে আবার দেখানো যায়
+        const originalCardHTML = studentCard.innerHTML;
+
+        studentCard.innerHTML = `
+          <div class="animate-fade-in bg-emerald-50 p-8 rounded-3xl border-2 border-dashed border-emerald-500 text-center shadow-inner">
+            <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-check-circle text-3xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-emerald-900 mb-2">আপনার পেমেন্ট তথ্য পাঠানো হয়েছে! ✅</h3>
+            <p class="text-emerald-700 text-sm leading-relaxed mb-6">
+              আমাদের প্রতিনিধি আপনার ট্রানজেকশনটি যাচাই করে আগামী <b>১২ ঘণ্টার</b> মধ্যে বকেয়া তথ্য আপডেট করে দেবেন।
+            </p>
+            <div class="flex flex-col gap-3">
+              <button id="resetSearchBtn" class="btn bg-emerald-600 border-none text-white rounded-xl py-3 hover:bg-emerald-700 transition-all">
+                নতুন করে সার্চ করুন
+              </button>
+              <p class="text-xs text-gray-500 italic">*তথ্য আপডেট না হলে আমাদের নম্বরে যোগাযোগ করুন*</p>
+            </div>
+          </div>
+        `;
+
+        // ৬. নতুন করে সার্চ করার লজিক (রিলোড ছাড়াই)
+        document.getElementById("resetSearchBtn").onclick = function () {
+          // ইনপুট বক্স খালি করা
+          const searchInput = document.getElementById("studentSearchId");
+          if (searchInput) searchInput.value = "";
+
+          // কার্ডটি আবার হাইড করে দেওয়া যাতে নতুন করে সার্চ করা যায়
+          studentCard.classList.add("hidden");
+          studentCard.style.display = "none";
+
+          // কার্ডের ভেতর আগের ফরম্যাট ফিরিয়ে আনা (যাতে পরবর্তী সার্চে তথ্য দেখা যায়)
+          studentCard.innerHTML = originalCardHTML;
+
+          // সার্চ ইনপুটে ফোকাস করা যাতে ইউজার সরাসরি লিখতে পারে
+          if (searchInput) searchInput.focus();
+        };
+      }
+      function copyText(text) {
+        navigator.clipboard
+          .writeText(text)
+          .then(() => alert("কপি হয়েছে: " + text));
+      }
+
       function changePayMethod(method) {
-        document.querySelectorAll(".pay-content").forEach((el) => {
-          el.classList.add("hidden");
-          el.style.display = "none";
-        });
-
+        document
+          .querySelectorAll(".pay-content")
+          .forEach((el) => el.classList.add("hidden"));
         document.querySelectorAll(".pay-tab-btn").forEach((btn) => {
-          btn.classList.add("opacity-60");
-          btn.classList.remove("active-pay");
+          btn.classList.remove(
+            "active-pay",
+            "border-emerald-600",
+            "text-emerald-600",
+          );
         });
 
         const target = document.getElementById("pay-" + method);
-        const activeBtn = document.getElementById("btn-" + method);
-
-        if (target) {
-          target.classList.remove("hidden");
-          target.style.display = "block";
-        }
-        if (activeBtn) {
-          activeBtn.classList.remove("opacity-60");
-          activeBtn.classList.add("active-pay");
-        }
+        const btn = document.getElementById("btn-" + method);
+        if (target) target.classList.remove("hidden");
+        if (btn)
+          btn.classList.add(
+            "active-pay",
+            "border-emerald-600",
+            "text-emerald-600",
+          );
       }
 
-      function copyText(text) {
-        navigator.clipboard.writeText(text).then(() => {
-          alert("নম্বরটি কপি করা হয়েছে: " + text);
-        });
-      }
-
-      // ৭. পেজ লোড হওয়ার পর ডিফল্ট ভিউ
+      // ৮. পেজ লোড
       document.addEventListener("DOMContentLoaded", function () {
         showSection("all");
+        fetchNotices();
       });
     </script>
   </body>
