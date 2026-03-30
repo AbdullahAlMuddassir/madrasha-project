@@ -1928,10 +1928,17 @@
           .then(() => alert("কপি হয়েছে: " + text));
       }
 
+      // পেমেন্ট মেথড ট্র্যাক করার জন্য একটি ভেরিয়েবল (এটি ফাংশনের বাইরে উপরে রাখুন)
+      let selectedMethod = "বিকাশ (bKash)";
+
       function changePayMethod(method) {
-        document
-          .querySelectorAll(".pay-content")
-          .forEach((el) => el.classList.add("hidden"));
+        // ১. সব পেমেন্ট বক্স হাইড করা
+        document.querySelectorAll(".pay-content").forEach((el) => {
+          el.classList.add("hidden");
+          el.style.display = "none"; // নিশ্চিত করার জন্য সরাসরি ডিসপ্লে বন্ধ করা
+        });
+
+        // ২. সব বাটন থেকে নীল/সবুজ বর্ডার সরানো
         document.querySelectorAll(".pay-tab-btn").forEach((btn) => {
           btn.classList.remove(
             "active-pay",
@@ -1940,15 +1947,27 @@
           );
         });
 
+        // ৩. সিলেক্ট করা মেথডটি সেভ করা (যাতে হোয়াটসঅ্যাপে সঠিক নাম যায়)
+        if (method === "bkash") selectedMethod = "বিকাশ (bKash)";
+        if (method === "nagad") selectedMethod = "নগদ (Nagad)";
+        if (method === "bank") selectedMethod = "ব্যাংক ট্রান্সফার";
+
+        // ৪. এখন নির্দিষ্ট বক্সটি দেখানো এবং বাটনটিকে হাইলাইট করা
         const target = document.getElementById("pay-" + method);
         const btn = document.getElementById("btn-" + method);
-        if (target) target.classList.remove("hidden");
-        if (btn)
+
+        if (target) {
+          target.classList.remove("hidden");
+          target.style.display = "block"; // বক্সটি দেখাবে
+        }
+
+        if (btn) {
           btn.classList.add(
             "active-pay",
             "border-emerald-600",
             "text-emerald-600",
           );
+        }
       }
 
       // ৮. পেজ লোড
